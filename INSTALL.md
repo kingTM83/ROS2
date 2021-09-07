@@ -54,3 +54,4 @@ You should see the _talker_ saying something, and the _listener_ hearing this th
 
 * Never download 2 different versions of ROS, be careful to truely uninstall it before install another version (```sudo apt remove ~nros-foxy-* && sudo apt autoremove```).
 * If something goes wrong when installing, try to update your packages by doing ```sudo apt update``` and resume.
+* Any other problem is maybe solved here : https://answers.ros.org/questions/
