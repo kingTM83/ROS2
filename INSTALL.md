@@ -5,9 +5,9 @@ Make ```locale``` and all locales *(LANGUAGE is not mandatory)* should be "....U
 If not, type :
 ```
 sudo apt install locales
-sudo locale-gen en_US en_US.UTF-8
-sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
-export LANG=en_US.UTF-8
+sudo locale-gen fr_FR fr_FR.UTF-8
+sudo update-locale LC_ALL=fr_FR.UTF-8 LANG=fr_FR.UTF-8
+export LANG=fr_FR.UTF-8
 ```
 
 ## 2) Setup sources
