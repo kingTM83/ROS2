@@ -1,0 +1,56 @@
+# Install ROS2 (Foxy)
+
+## 1) Check your locales
+Make ```locale``` and all locales *(LANGUAGE is not mandatory)* should be "....UTF-8".
+If not, type :
+```
+sudo apt install locales
+sudo locale-gen en_US en_US.UTF-8
+sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+export LANG=en_US.UTF-8
+```
+
+## 2) Setup sources
+Install curl, authorize ROS's GPG key and add repository to your source list like this :
+```
+sudo apt install curl gnupg2 lsb-release
+sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key  -o /usr/share/keyrings/ros-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+```
+
+## 3) Install foxy
+```
+sudo apt install ros-foxy-desktop
+```
+
+## 4) Setup environment
+
+```
+echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
+```
+
+We put it in the bashrc, to not have to do it everytime we open a new terminal.
+
+## 5) Install colcon
+
+Colcon is used to build a package in ROS2.
+
+```
+sudo apt install python3-colcon-common-extensions
+```
+--------------------
+You now have ROS2 on your computer. Let's try something to test.
+Open 2 terminals. In the first one, type :
+```
+ros2 run demo_nodes_cpp talker
+```
+and in the other one, type :
+```
+ros2 run demo_nodes_cpp listener
+```
+You should see the _talker_ saying something, and the _listener_ hearing this thing. Thanks!
+
+## Bug List
+
+* Never download 2 different versions of ROS, be careful to truely uninstall it before install another version (```sudo apt remove ~nros-foxy-* && sudo apt autoremove```).
+* If something goes wrong when installing, try to update your packages by doing ```sudo apt update``` and resume.
