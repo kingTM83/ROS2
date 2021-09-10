@@ -31,12 +31,17 @@ echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
 
 We put it in the bashrc, to not have to do it everytime we open a new terminal.
 
-## 5) Install colcon
+## 5) Install some useful packages
 
 Colcon is used to build a package in ROS2.
 
 ```
 sudo apt install python3-colcon-common-extensions
+```
+
+Gazebo is a leader in robot simulation.
+```
+sudo apt install ros-foxy-gazebo-ros-pkgs
 ```
 --------------------
 You now have ROS2 on your computer. Let's try something to test.
