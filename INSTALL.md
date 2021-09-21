@@ -1,5 +1,7 @@
 # Install ROS2 (Foxy)
 
+**IMPORTANT** Ubuntu 20.04 is needed to install Foxy.
+
 ## 1) Check your locales
 Make ```locale``` and all locales *(LANGUAGE is not mandatory)* should be "....UTF-8".
 If not, type :
@@ -20,6 +22,7 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 
 ## 3) Install foxy
 ```
+sudo apt update
 sudo apt install ros-foxy-desktop
 ```
 
