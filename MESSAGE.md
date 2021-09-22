@@ -44,3 +44,6 @@ Now return to the root of your workspace (```cd ~/ros2_ws```), and build your pr
 Source your build ```. install/setup.bash```
 
 Let's try if you see your new interface with ```ros2 interface show custom_interface/msg/Star```
+
+
+More info https://docs.ros.org/en/foxy/Concepts/About-ROS-Interfaces.html
