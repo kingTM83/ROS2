@@ -26,6 +26,9 @@
  
  [RQt](https://github.com/kingTM83/ROS2/blob/main/RQT.md)
  --------------------- RQt is a software framework of ROS that implements the various GUI tools in the form of plugins
+ 
+ [rosbag](https://github.com/kingTM83/ROS2/blob/main/ROSBAG.md)
+ -------------------- rosbag is the tool to record and play back data
 
  --------------------------------------
  
