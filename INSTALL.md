@@ -32,7 +32,7 @@ sudo apt install ros-foxy-desktop
 echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
 ```
 
-We put it in the bashrc, to not have to do it everytime we open a new terminal.
+If you don't want to put this line in your bashrc, don't forget to source **everytime** you open a new terminal.
 
 ## 5) Install some useful packages
 
