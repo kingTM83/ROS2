@@ -82,8 +82,8 @@ Basically, this is exactly the same thing than a Topic. The only difference is a
 *call/response model*. When someone publish to a service, the subscribers have to **ask** to receive data.
 
 ## Basic commands
-
-We've seen some important commands, like ```ros2 node```, ```ros2 topic```, or ```ros2 pkg``, but there is still more commands very useful :
+`
+We've seen some important commands, like ```ros2 node```, ```ros2 topic```, or ```ros2 pkg```, but there is still more commands very useful :
 
   - ```ros2 run``` : Run a package specific executables.
   - ```ros2 launch``` : Run a launch file, which contains several executables.
