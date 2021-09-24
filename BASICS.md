@@ -63,6 +63,7 @@ Topics are a vital element of the ROS graph that act as a bus for nodes to excha
 ![Topic](https://docs.ros.org/en/foxy/_images/Topic-MultiplePublisherandMultipleSubscriber.gif)
 
 Topics are one of the main ways in which data is moved between nodes and therefore between different parts of the system.
+This is a *publish/subscribe model*. It means that when a node publish, **everyone** who is subscribed to this topic will instantly receive the data.
 
 If you run for exemple the previous test (in INSTALL), and in another terminal you run ```rqt_graph```, you will see your nodes, communicating thanks to a topic (named /chatter).
 
@@ -74,6 +75,11 @@ If you do ```ros2 topic -h```, you wil see a lot of commands. We will describe s
   - ```ros2 topic pub``` : Allows you to publish something to the topic.
 
 Again, do not hesitate to dig more with the ```-h``` parameter. This is one of the most useful part, so really important to understand topics.
+
+## Service
+
+Basically, this is exactly the same thing than a Topic. The only difference is about the model, here this is more like a
+*call/response model*. When someone publish to a service, the subscribers have to **ask** to receive data.
 
 ## Basic commands
 
