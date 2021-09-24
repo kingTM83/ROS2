@@ -6,7 +6,7 @@
    --------------------------------------
    
   #### Concepts
-  [Basics TODO](https://github.com/kingTM83/ROS2/blob/main/BASICS.md)
+  [Basics](https://github.com/kingTM83/ROS2/blob/main/BASICS.md)
   ----------------- Nodes, Topics, Pub/Sub, Workspace...
   
   [QoS](https://docs.ros.org/en/foxy/Concepts/About-Quality-of-Service-Settings.html)
