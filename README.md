@@ -14,6 +14,9 @@
   
   [Transport TODO](https://github.com/kingTM83/ROS2/blob/main/TRANSPORT.md)
  ------------- Which transport is used in ROS2
+ 
+   [Discovery Server](https://github.com/kingTM83/ROS2/blob/main/DISCOVERY.md)
+ -------- What is a Discovery Server
   
  --------------------------------------
  
