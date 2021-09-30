@@ -88,3 +88,8 @@ We've seen some important commands, like ```ros2 node```, ```ros2 topic```, or `
   - ```ros2 run``` : Run a package specific executables.
   - ```ros2 launch``` : Run a launch file, which contains several executables.
 
+## Behind the scenes
+
+ROS 2 uses a distributed discovery process for nodes to **connect** to each other. As this process purposefully does not use a centralized discovery mechanism (like the ROS Master in ROS 1), it can **take time** for ROS nodes to **discover** all other participants in the ROS graph. Because of this, there is a **long-running daemon** in the background that **stores** information about the ROS graph to provide faster responses to queries, e.g. the list of node names.
+
+The daemon is automatically started when the relevant command-line tools are used for the first time. You can run ```ros2 daemon --help``` for more options for interacting with the daemon.
