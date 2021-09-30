@@ -4,5 +4,4 @@
   The DDS will take care of the **communication**, ROS2 have set one by default (*FastDDS eProsima*) and depending on your applications, you can change it, 
   but it is already quite advanced use.
   
-  FastDDS have implementend **UDP, TCP, Shared Memory** and even **intra-process data delivery**. By default, **UDP** is chosen. You can manipulate it as you want, but again
-  it is already quite advanced use.
+**RTPS**
