@@ -27,7 +27,7 @@ workspace_folder/
 A package can be considered a container for your ROS 2 code. The minimum required contents:
 
   - *package.xml* file, containing meta information about the package.
-  - *CMakeLists.txt* file, that describes how to build the code within the package.
+  - *CMakeLists.txt* file, that describes how to build the code within the package (when using C++).
 
 To create a package, run this command : 
 ```ros2 pkg create --build-type ament_cmake <package_name>```
@@ -74,7 +74,7 @@ If you do ```ros2 topic -h```, you wil see a lot of commands. We will describe s
   - ```ros2 topic info [--verbose]``` : Gives you information about the topic. With the verbose parameter, you can learn a lot more about publishers and subscribers.
   - ```ros2 topic pub``` : Allows you to publish something to the topic.
 
-Again, do not hesitate to dig more with the ```-h``` parameter. This is one of the most useful part, so really important to understand topics.
+Again, do not hesitate to dig more with the ```-h``` parameter. This is one of the most useful part, so it's really important to understand topics.
 
 ## Service
 
