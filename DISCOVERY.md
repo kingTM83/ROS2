@@ -15,6 +15,8 @@ SDP suffers from a further problem, which is that it entirely depends on **multi
 where multicast does not work reliably, such as *WiFi networks*, *complex networks* with several links between publishers and subscribers, and so on. 
 This is why **DS** limits the communication to **unicast**, which entails that Clients need to know where the Server is beforehand.
 
+DS uses UDP by default.
+
 ![DiscoveryVSSimple](https://fast-dds.docs.eprosima.com/en/latest/_images/ds_explanation.svg)
 
 
