@@ -81,6 +81,9 @@ Again, do not hesitate to dig more with the ```-h``` parameter. This is one of t
 Basically, this is exactly the same thing than a Topic. The only difference is about the model, here this is more like a
 *call/response model*. When someone publish to a service, the subscribers have to **ask** to receive data.
 
+
+-----------------
+
 ## Basic commands
 
 We've seen some important commands, like ```ros2 node```, ```ros2 topic```, or ```ros2 pkg```, but there is still more commands very useful :
