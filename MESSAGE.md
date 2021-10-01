@@ -41,7 +41,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 Now return to the root of your workspace (```cd ~/ros2_ws```), and build your project
 ```colcon build --packages-select custom_interface```
 
-Source your build ```. install/setup.bash```
+**Source your build** ```. install/setup.bash```
 
 Let's try if you see your new interface with ```ros2 interface show custom_interface/msg/Star```
 
