@@ -1,6 +1,6 @@
 # How to use RQt
 
-RQt is a GUI for ROS, utilizing the Qt framework, that implements various tools and interfaces in the form of plugins.
+ RQt is a GUI for ROS, utilizing the Qt framework, that implements various tools and interfaces in the form of plugins.
 
 If you can't run rqt with the command ```rqt```, just re-install it ```sudo apt install ros-foxy-rqt*```.
 
