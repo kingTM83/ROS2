@@ -1,6 +1,6 @@
 # Understand Discovery Servers
 
-Switching from the DDS (and ROS 2) default **Simple Discovery Protocol** (SDP) to eProsima’s **Discovery Server** (DS) will only have an 
+ Switching from the DDS (and ROS 2) default **Simple Discovery Protocol** (SDP) to eProsima’s **Discovery Server** (DS) will only have an 
 effect in the discovery related **traffic**. Briefly, discovery comprises two phases: Participant Discovery Phase (PDP), and Endpoint 
 Discovery Phase (EDP). Translated into ROS 2 Foxy, PDP is the phase where contexts discover each other (since Foxy, the context is 
 the one holding the DDS participant, before it was held on the node), whereas EDP is where the endpoints (ROS 2 publications and subscriptions) discover each other.
