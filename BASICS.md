@@ -59,6 +59,7 @@ Do not hesitate to run ```ros2 node -h``` to understand the two commands availab
 ## Topics
 
 Topics are a vital element of the ROS graph that act as a bus for nodes to exchange messages.
+A topic is an **unique name**, a **type**, and a **set of QoS**.
 
 ![Topic](https://docs.ros.org/en/foxy/_images/Topic-MultiplePublisherandMultipleSubscriber.gif)
 
