@@ -12,7 +12,7 @@
   [QoS](https://docs.ros.org/en/foxy/Concepts/About-Quality-of-Service-Settings.html)
   -------------------- What are QoS ?
   
-  [Transport TODO](https://github.com/kingTM83/ROS2/blob/main/TRANSPORT.md)
+  [Transport](https://github.com/kingTM83/ROS2/blob/main/TRANSPORT.md)
  ------------- Which transport is used in ROS2
  
    [Discovery Server](https://github.com/kingTM83/ROS2/blob/main/DISCOVERY.md)
