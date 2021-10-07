@@ -46,3 +46,5 @@ The base QoS profile currently includes settings for the following policies:
 
 
 With the right set of Quality of Service Reliability, ROS 2 can be as reliable as TCP or as best-effort as UDP.
+
+To see if pub/sub can be compatible : https://docs.ros.org/en/foxy/Concepts/About-Quality-of-Service-Settings.html
