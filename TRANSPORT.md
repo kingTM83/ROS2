@@ -6,7 +6,7 @@
   
   ## RTPS
 
-DDS uses the **RTPS** protocol (*Real Time Publish-Subscribe*).
+DDS uses the **RTPS** protocol (*Real Time Publish-Subscribe*). [Doc](https://www.eprosima.com/index.php/resources-all/whitepapers/rtps)
 
 RTPS is a protocol for **best effort** and **reliable** pub-sub communications over **unreliable transports such as UDP** in both unicast and multicast.
 
