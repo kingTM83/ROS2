@@ -54,7 +54,7 @@ A full robotic system is comprised of many nodes working in concert. In ROS 2, a
 
 A node may publish data to any number of topics and simultaneously have subscriptions to any number of topics.
 
-Do not hesitate to run ```ros2 node -h``` to understand the two commands available (info and list).
+Do not hesitate to run ```ros2 node -h``` to understand the two commands available (info and list)[.](https://github.com/kingTM83/ROS2/blob/main/BASICS.md#topics)
 
 ## Topics
 
